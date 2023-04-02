@@ -31,7 +31,7 @@ const MyNandi = () => {
                 </div>
             </div>
             <p className='w-[70%] max-sm:w-[100%]  mt-5'>You've token the first step in an existing journey, complete your profile and explore the platform to earn Nandi Points, unlocking more perks as you advance through the levels</p>
-            <div className='nandiContainer flex gap-16 max-sm:flex-col  max-sm: p-5   max-sm:gap-10 justify-center items-center overflow-x-scroll '>
+            <div className='nandiContainer flex gap-16 max-sm:flex-col  max-sm:   max-sm:gap-10 justify-center items-center overflow-x-scroll '>
 
                 <div className="max-w-sm p-6 bg-white  w-60   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                     <a href="#">
