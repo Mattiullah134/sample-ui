@@ -14,7 +14,7 @@ const HeroSection = () => {
 
 
             <div className='w-[70%] max-md:pl-5 max-sm:w-[100%]  max-md:w-[60%]   max-md:flex-col ml-auto pt-10 '>
-                <div className="p-5 shadow-2xl sm:absolute left-0  max-md:left-8  w-56 max-sm:mx-auto  top-72 max-w-sm bg-white border border-gray-200 rounded-2xl dark:bg-gray-800 dark:border-gray-700">
+                <div className="p-5 shadow-2xl sm:absolute left-0  max-md:left-8  w-56 max-sm:mx-auto  top-72 max-w-sm  border border-gray-200 rounded-2xl dark:bg-gray-800 dark:border-gray-700">
 
                     <div className="flex flex-col items-center pb-10">
                         <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={men1Img} alt="" />
