@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const RewardsCard = ({ cardImage, title, points, pointShort, sponseredLogo }) => {
     return (
 
-        <Link to={'/editprofile'} className=" w-[28%] max-md:w-[40%] max-sm:w-[70%] my-6  shadow dark:border-gray-700">
+        <Link to={'/rewarddetail'} className=" w-[28%] max-md:w-[40%] max-sm:w-[70%] my-6  shadow dark:border-gray-700">
             <div className='h-72 max-md:h-40 rounded-2xl overflow-hidden'>
 
                 <a href="#">
