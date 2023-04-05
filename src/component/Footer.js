@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className="mb-6 md:mb-0  max-sm:w-auto w-72 mr-14">
                         <a href="https://flowbite.com/" className="flex items-center max-sm:justify-center">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="FlowBite Logo" />
-                            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">nandi</span>
+                            <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">nandi</span>
                         </a>
                         <p className='text-white  max-sm:mr-auto mt-8 max-sm:mr-0 mr-2 text-2xl'>The New Creative Economy.</p>
                     </div>
@@ -48,7 +48,7 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div className=''>
-                            <h2 className="mb-6 text-sm  font-semibold text-gray-900  dark:text-white">Join Newsletter</h2>
+                            <h2 className="mb-6 text-sm  font-semibold text-white">Join Newsletter</h2>
                             <ul className="text-gray-600 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Join our newsletter to get more free design course and resourse</a>

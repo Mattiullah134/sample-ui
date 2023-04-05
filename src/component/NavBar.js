@@ -99,13 +99,13 @@ const NavBar = () => {
                                 <a href='/' className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  md:p-0 text-lg  md:dark:bg-transparent" aria-current="page"><i className="fa-solid fa-paper-plane"></i></a>
                             </li>
                             <li>
-                                <a href='/' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  text-lg md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-discord"></i></a>
+                                <a href='/' className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  text-lg md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-discord"></i></a>
                             </li>
                             <li>
-                                <a href='/' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0   text-lg md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-twitter"></i></a>
+                                <a href='/' className="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0   text-lg md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-twitter"></i></a>
                             </li>
                             <li>
-                                <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Create</button>
+                                <button type="button" className="text-white bg-[#1647fb] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Create</button>
 
                             </li>
                             <li>

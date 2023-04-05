@@ -113,9 +113,9 @@ const MyNandi = () => {
 
                     <img className="object-cover max-sm:w-[100%] w-[30%] rounded-t-lg h-96 md:h-auto  md:rounded-none md:rounded-l-lg" src={men1Img} alt="" />
                     <div className="flex  flex-col justify-between  text-center  max-sm:w-[80%]  leading-normal">
-                        <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white text-center">Latest Points</h5>
-                        <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Friday 11 March 2023<div>Signed up for Nandi</div></p>
-                        <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 w-32 text-center font-medium rounded-lg mx-auto px-5 py-2.5  mb-2 dark:hover:bg-blue-600 focus:outline-none dark:focus:ring-blue-800 mt-5 text-2xl">20 <div className='text-xs font-semibold'>Pints Won</div></button>
+                        <h5 className="mb-2 text-2xl font-bold tracking-tight  text-white text-center">Latest Points</h5>
+                        <p className="mb-3 font-normal  text-white">Friday 11 March 2023<div>Signed up for Nandi</div></p>
+                        <button type="button" className="text-white bg-[#1647fb] hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 w-32 text-center font-medium rounded-lg mx-auto px-5 py-2.5  mb-2 dark:hover:bg-blue-600 focus:outline-none dark:focus:ring-blue-800 mt-5 text-2xl">20 <div className='text-xs font-semibold'>Pints Won</div></button>
                     </div>
                 </a>
 
