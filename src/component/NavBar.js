@@ -22,7 +22,7 @@ const items = [
         key: '3',
         label: (
             <a className='dark:text-[#494d5a] pb-3 font-semibold' target="_blank" rel="noopener noreferrer" >
-                <i class="fa-solid fa-user mr-3"></i>My profile
+                <i className="fa-solid fa-user mr-3"></i>My profile
                 <hr className='mt-2' />
             </a>
         ),
@@ -46,7 +46,7 @@ const items = [
         key: '4',
         label: (
             <a className='dark:text-[#494d5a] pb-3 font-semibold' target="_blank" rel="noopener noreferrer" >
-                <i class="fa-solid fa-image mr-3"></i>My items
+                <i className="fa-solid fa-image mr-3"></i>My items
                 <hr className='mt-2' />
             </a>
         ),
@@ -55,7 +55,7 @@ const items = [
         key: '5',
         label: (
             <a className='dark:text-[#494d5a] pb-3 font-semibold' target="_blank" rel="noopener noreferrer" >
-                <i class="fa-solid fa-lightbulb mr-3"></i>Dark Theme
+                <i className="fa-solid fa-lightbulb mr-3"></i>Dark Theme
                 <hr className='mt-2' />
             </a>
         ),
@@ -64,7 +64,7 @@ const items = [
         key: '6',
         label: (
             <a className='dark:text-[#494d5a] pb-3 font-semibold' target="_blank" rel="noopener noreferrer" >
-                <i class="fa-solid fa-right-from-bracket fa-rotate-180 mr-3"></i>Disconnect
+                <i className="fa-solid fa-right-from-bracket fa-rotate-180 mr-3"></i>Disconnect
                 <hr className='mt-2' />
             </a>
         ),

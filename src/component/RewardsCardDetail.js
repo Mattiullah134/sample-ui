@@ -36,22 +36,22 @@ const RewardsCardDetail = () => {
                         </div>
                         <div className='max-sm:hidden max-md:hidden'>
                             <div className='bg-white mb-5 cursor-pointer w-12 h-12 flex items-center justify-center rounded-full font-semibold text-xl'>
-                                <i class="fa-solid fa-xmark text-gray-600"></i>
+                                <i className="fa-solid fa-xmark text-gray-600"></i>
                             </div>
                             <div className='border-2 mb-5 cursor-pointer border-[#333742] w-12 h-12 flex items-center justify-center rounded-full font-semibold text-xl'>
-                                <i class="fa-sharp fa-solid fa-upload text-gray-500"></i>
+                                <i className="fa-sharp fa-solid fa-upload text-gray-500"></i>
                             </div>
                             <div className='border-2 mb-5 cursor-pointer bg-[#23262f] border-[#333742] w-12 h-12 flex items-center justify-center rounded-full font-semibold text-xl'>
-                                <i class="fa-solid fa-heart  text-pink-500"></i>
+                                <i className="fa-solid fa-heart  text-pink-500"></i>
                             </div>
                         </div>
                     </div>
                     <div>
                         <h1 className='text-white border-b border-[#333742] pb-6 text-xl font-bold mb-5'>Requirements</h1>
                         <RewCardRequi logo={cryptoWallet} title={'Crypto Wallet'} para={'Connect to your crypto wallet'} />
-                        <RewCardRequi icon={<i class="fa-brands fa-twitter text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Twitter'} para={'Follow Kidcadaver on Twitter'} />
-                        <RewCardRequi icon={<i class="fa-brands fa-telegram text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Telegram'} para={'Join Kidcadaver on Telegram'} />
-                        <RewCardRequi icon={<i class="fa-brands fa-discord text-white font-bold max-sm:text-xl text-3xl"></i>} title={'Discord'} para={`Join Kidcadaver's Discord channel`} />
+                        <RewCardRequi icon={<i className="fa-brands fa-twitter text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Twitter'} para={'Follow Kidcadaver on Twitter'} />
+                        <RewCardRequi icon={<i className="fa-brands fa-telegram text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Telegram'} para={'Join Kidcadaver on Telegram'} />
+                        <RewCardRequi icon={<i className="fa-brands fa-discord text-white font-bold max-sm:text-xl text-3xl"></i>} title={'Discord'} para={`Join Kidcadaver's Discord channel`} />
                         <RewardsReqCard />
                     </div>
                 </div>
