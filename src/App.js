@@ -15,14 +15,14 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      {(location.pathname !== '/editprofile' && location.pathname !== '/rewarddetail') && <PageHeroSection />}
+      {(location.pathname !== '/editprofile' && location.pathname !== '/rewarddetail' && location.pathname !== '/rewarddetail1' && location.pathname !== '/rewarddetail2') && <PageHeroSection />}
       <Routes>
         <Route exat path='/editprofile' element={<EditProfile />} />
         <Route exat path='/rewarddetail' element={<RewardsCardDetail />} />
-        <Route exat path='/rewarddetail1' element={<RewardsCardDetail />} />
+        <Route exat path='/rewarddetail1' element={<RewardsCardDetail1 />} />
         <Route exat path='/rewarddetail2' element={<RewardsCardDetail2 />} />
       </Routes>
-      {(location.pathname !== '/editprofile' && location.pathname !== '/rewarddetail') && <HeroSection />}
+      {(location.pathname !== '/editprofile' && location.pathname !== '/rewarddetail' && location.pathname !== '/rewarddetail1' && location.pathname !== '/rewarddetail2') && <HeroSection />}
       <Footer />
     </div>
   );
