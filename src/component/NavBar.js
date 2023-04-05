@@ -79,11 +79,12 @@ const NavBar = () => {
     return (
         <>
             <nav className="border-gray-200 bg-gray-50 bg-transparent dark:border-gray-700 border-b">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto max-sm:p-2 p-4">
 
                     <a href='/' className="flex items-center">
-                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" />
-                        <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white italic relative">nandi</span>
+                        <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 max-sm:mr-1 mr-3" alt="Flowbite Logo" />
+                        <span className="self-center max-sm:text-lg text-2xl font-semibold whitespace-nowrap border-r-2 border-[#30333d] max-sm:pr-2 pr-4 text-white italic relative">nandi</span>
+                        <p className='text-[#777e90] max-sm:pl-2 pl-3 font-semibold'>Learn more</p>
                     </a>
 
                     <Dropdown menu={{ items }} placement="bottomLeft" arrow >
@@ -93,7 +94,7 @@ const NavBar = () => {
                         </Button>
                     </Dropdown>
                     <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-                        <ul className="flex items-center flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-4 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+                        <ul className="flex items-center flex-col font-medium mt-4 rounded-lg  md:flex-row md:space-x-4 md:mt-0 md:border-0 md:bg-transparent  md:dark:bg-transparent ">
                             <li>
                                 <a href='/' className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  md:p-0 text-lg  md:dark:bg-transparent" aria-current="page"><i className="fa-solid fa-paper-plane"></i></a>
                             </li>
