@@ -6,7 +6,7 @@ import cryptoWallet from '../assets/cryptoWallet.png'
 import RewardsReqCard from './RewardsReqCard';
 import { Link } from 'react-router-dom';
 
-const RewardsCardDetail = () => {
+const RewardsCardDetail2 = () => {
     return (
         <div className='w-[80%] mx-auto mt-10'>
             <Link to={'/rewards'} type="button" className="text-gray-900 bg-transparent border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm max-sm:px-2 px-5 py-2.5 max-sm:mr-0.5 mr-2 mb-2  dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 "><i className="fa-solid fa-arrow-left mr-3 text-gray-400"></i>Rewards</Link>
@@ -28,12 +28,8 @@ const RewardsCardDetail = () => {
                                     <button className='border-2 rounded-md py-1 px-2 text-white max-sm:font-normal font-bold'>200 REDEEMED</button>
                                 </div>
                             </div>
-                            <p className='text-gray-600 font-semibold md:w-96 '>Complete the requirements below to redeem 1 digital art and print from kidcadaver</p>
-                            <div className='flex items-center my-10'>
-                                <p className='text-white text-xl'>Sponsored by</p>
-                                <img className='w-16' src={maraLogo} alt="" />
-                                <p className='text-white font-bold text-2xl'>mara</p>
-                            </div>
+                            <p className='text-gray-600 font-semibold  '>Complete the requirements below to redeem 1 digital art and print from kidcadaver</p>
+
                         </div>
                         <div className='max-sm:hidden max-md:hidden'>
                             <div className='bg-white mb-5 cursor-pointer w-12 h-12 flex items-center justify-center rounded-full font-semibold text-xl'>
@@ -47,18 +43,31 @@ const RewardsCardDetail = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <h1 className='text-white border-b border-[#333742] pb-6 text-xl font-bold mb-5'>Requirements</h1>
-                        <RewCardRequi logo={cryptoWallet} title={'Crypto Wallet'} para={'Connect to your crypto wallet'} />
-                        <RewCardRequi icon={<i className="fa-brands fa-twitter text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Twitter'} para={'Follow Kidcadaver on Twitter'} />
-                        <RewCardRequi icon={<i className="fa-brands fa-telegram text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Telegram'} para={'Join Kidcadaver on Telegram'} />
-                        <RewCardRequi icon={<i className="fa-brands fa-discord text-white font-bold max-sm:text-xl text-3xl"></i>} title={'Discord'} para={`Join Kidcadaver's Discord channel`} />
-                        <RewardsReqCard />
+
+                    <div class="max-w-sm p-6 border border-gray-200 rounded-lg shadow dark:bg-[#23262f] dark:border-gray-700">
+                        <a href="#" class="inline-flex items-center px-3 py-3 text-md font-medium  text-white bg-[#45b26b] w-full flex justify-center rounded-full">
+                            You've Reedemed Your Rewards
+                        </a>
+                        <div className='dark:text-[#494d5a] mt-5 p-5  font-semibold shadow-lg rounded-lg'   >
+                            <h1 className='text-white text-2xl font-bold'>Eric Weche</h1>
+                            <p className='text-[#757c8e]'>0xc4c16ab5ac7d...b21a</p>
+                            <div className='flex items-center gap-5 mt-5 mb-5'>
+                                <img src="https://static.currency.com/img/media/bitcoin.dd8a16.png" className="w-9 h-9 " alt="Flowbite Logo" />
+                                <div>
+                                    <p className='font-semibold text-[#757c8e]'>Rewards Balance</p>
+                                    <h1 className='text-2xl text-white'>500</h1>
+                                </div>
+                            </div>
+                            <a type="button" className="text-white border-2 border-gray-800 focus:outline-none hover:bg-gray-500 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm max-sm:px-2 px-5 py-2.5 max-sm:mr-0.5 mr-2 mb-2 flex justify-center cursor-pointer w-full dark:border-gray-600 dark:hover:bg-gray-700 ">Reedem Reward</a>
+                        </div>
+                        <p class="mb-3 mt-3 font-normal text-center font-semibold text-[#757c8e] ">You are welcome to logout to and disconnect your wallet.Your entry will still be saved and you can log back in anytime</p>
                     </div>
+
                 </div>
             </div>
         </div >
     )
 }
 
-export default RewardsCardDetail
+
+export default RewardsCardDetail2

@@ -30,7 +30,7 @@ const items = [
     {
         key: '8',
         label: (
-            <div className='dark:text-[#494d5a] pb-3 font-semibold' target="_blank"  >
+            <div className='dark:text-[#494d5a] pb-3 font-semibold'   >
                 <div className='flex items-center gap-2'>
                     <img src="https://static.currency.com/img/media/bitcoin.dd8a16.png" className="w-9 h-9 " alt="Flowbite Logo" />
                     <div>
@@ -95,13 +95,13 @@ const NavBar = () => {
                     <div className="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
                         <ul className="flex items-center flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-4 md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
                             <li>
-                                <a href='/' className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  md:p-0 text-lg md:hover:text-blue-700  md:dark:bg-transparent" aria-current="page"><i className="fa-solid fa-paper-plane"></i></a>
+                                <a href='/' className="block py-2 pl-3 pr-4 text-white rounded md:bg-transparent  md:p-0 text-lg  md:dark:bg-transparent" aria-current="page"><i className="fa-solid fa-paper-plane"></i></a>
                             </li>
                             <li>
-                                <a href='/' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-discord"></i></a>
+                                <a href='/' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0  text-lg md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-discord"></i></a>
                             </li>
                             <li>
-                                <a href='/' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700  text-lg md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-twitter"></i></a>
+                                <a href='/' className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0   text-lg md:p-0 dark:text-white  dark:hover:text-white md:dark:hover:bg-transparent"><i className="fa-brands fa-twitter"></i></a>
                             </li>
                             <li>
                                 <button type="button" className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Create</button>

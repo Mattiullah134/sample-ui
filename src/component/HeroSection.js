@@ -1,7 +1,7 @@
 import React from 'react'
-import men1Img from '../assets/men1.jpg'
+import men1Img from '../assets/cardimg19.jpeg'
 import Communities from './Communities'
-import { BrowserRouter, Routes, Route, Link, useLocation } from "react-router-dom";
+import { Routes, Route, Link, useLocation } from "react-router-dom";
 import MyNandi from './MyNandi';
 import Rewards from './Rewards';
 const HeroSection = () => {
@@ -14,10 +14,10 @@ const HeroSection = () => {
 
 
             <div className='w-[70%] max-md:pl-5 max-sm:w-[100%]  max-md:w-[60%]   max-md:flex-col ml-auto pt-10 '>
-                <div className="p-5 shadow-2xl sm:absolute left-0  max-md:left-8  w-56 max-sm:mx-auto  top-72 max-w-sm  border border-gray-200 rounded-2xl dark:bg-gray-800 dark:border-gray-700">
+                <div className="p-5 shadow-2xl sm:absolute left-0  max-md:left-8  w-56 max-sm:mx-auto  top-72 max-w-sm  border border-gray-200 rounded-2xl bg-[#23262f] dark:border-gray-700">
 
                     <div className="flex flex-col items-center pb-10">
-                        <img className="w-24 h-24 mb-3 rounded-full shadow-lg" src={men1Img} alt="" />
+                        <img className="w-24 h-24 mb-3 object-contain rounded-full shadow-lg" src={men1Img} alt="" />
                         <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Eric Weche</h5>
                         <span className="font-semibold text-white">Oxc4c16a645...b21a</span>
                         <p className="text-sm mt-5 text-center text-gray-500">A contemporary digital artist from Kinshasa. Upcomming gallery solo show in Germany</p>

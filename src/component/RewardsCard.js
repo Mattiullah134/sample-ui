@@ -7,7 +7,7 @@ const RewardsCard = ({ cardImage, title, points, pointShort, sponseredLogo }) =>
             <div className='h-72  max-md rounded-2xl overflow-hidden'>
 
                 <a href="#">
-                    <img className=" w-[100%] object-contain" src={cardImage} alt="" />
+                    <img className=" w-[100%] object-cover" src={cardImage} alt="" />
                 </a>
             </div>
             <div className="">

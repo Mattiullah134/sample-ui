@@ -6,7 +6,7 @@ import cryptoWallet from '../assets/cryptoWallet.png'
 import RewardsReqCard from './RewardsReqCard';
 import { Link } from 'react-router-dom';
 
-const RewardsCardDetail = () => {
+const RewardsCardDetail1 = () => {
     return (
         <div className='w-[80%] mx-auto mt-10'>
             <Link to={'/rewards'} type="button" className="text-gray-900 bg-transparent border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm max-sm:px-2 px-5 py-2.5 max-sm:mr-0.5 mr-2 mb-2  dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 "><i className="fa-solid fa-arrow-left mr-3 text-gray-400"></i>Rewards</Link>
@@ -49,10 +49,10 @@ const RewardsCardDetail = () => {
                     </div>
                     <div>
                         <h1 className='text-white border-b border-[#333742] pb-6 text-xl font-bold mb-5'>Requirements</h1>
-                        <RewCardRequi logo={cryptoWallet} title={'Crypto Wallet'} para={'Connect to your crypto wallet'} />
-                        <RewCardRequi icon={<i className="fa-brands fa-twitter text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Twitter'} para={'Follow Kidcadaver on Twitter'} />
-                        <RewCardRequi icon={<i className="fa-brands fa-telegram text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Telegram'} para={'Join Kidcadaver on Telegram'} />
-                        <RewCardRequi icon={<i className="fa-brands fa-discord text-white font-bold max-sm:text-xl text-3xl"></i>} title={'Discord'} para={`Join Kidcadaver's Discord channel`} />
+                        <RewCardRequi logo={cryptoWallet} title={'Crypto Wallet'} para={'Connect to your crypto wallet'} checkBox={true} />
+                        <RewCardRequi icon={<i className="fa-brands fa-twitter text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Twitter'} para={'Follow Kidcadaver on Twitter'} checkBox={true} />
+                        <RewCardRequi icon={<i className="fa-brands fa-telegram text-white font-bold max-sm:text-xl text-4xl"></i>} title={'Telegram'} para={'Join Kidcadaver on Telegram'} checkBox={true} />
+                        <RewCardRequi icon={<i className="fa-brands fa-discord text-white font-bold max-sm:text-xl text-3xl"></i>} title={'Discord'} para={`Join Kidcadaver's Discord channel`} checkBox={true} />
                         <RewardsReqCard />
                     </div>
                 </div>
@@ -61,4 +61,4 @@ const RewardsCardDetail = () => {
     )
 }
 
-export default RewardsCardDetail
+export default RewardsCardDetail1

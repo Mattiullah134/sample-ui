@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
 const PageHeroSection = () => {
     return (
         <div className='h-96 max-sm:h-72 flex items-end max-sm:justify-center justify-end overflow-hidden object-contain object-center bg-no-repeat bg-center' style={{
