@@ -6,7 +6,7 @@ const MyNandi = () => {
 
     return (
         <div className='text-white w-[80%] flex flex-col  max-sm:items-center items-start'>
-            <div className="mynandiBanner max-sm:w-[100%] max-md:ml-auto bg-gradient-to-br from-purple-900 to-black w-[80%]  h-96 rounded-lg p-5 max-sm:h-auto ml-0">
+            <div className="mynandiBanner max-md:w-[100%] max-sm:w-[100%] max-md:ml-auto max-md:  border-slate-50 bg-gradient-to-br from-purple-900 to-black w-[100%]  h-96 rounded-lg p-5 max-sm:h-auto ml-0">
                 <div className="flex flex-col h-full justify-between items-center">
                     <div className="logo flex justify-center items-center border-4 text-center p-2 border-gray-500 w-32 h-32 rounded-full">
                         <img src="https://static.currency.com/img/media/bitcoin.dd8a16.png" className="h-full " alt="Flowbite Logo" />
@@ -31,9 +31,9 @@ const MyNandi = () => {
                 </div>
             </div>
             <p className='w-[70%] max-sm:w-[100%]  mt-5'>You've token the first step in an existing journey, complete your profile and explore the platform to earn Nandi Points, unlocking more perks as you advance through the levels</p>
-            <div className='nandiContainer flex gap-16 max-sm:flex-col  max-sm:   max-sm:gap-10 justify-center items-center overflow-x-scroll '>
+            <div className='nandiContainer w-[100%] flex gap-16 max-sm:flex-col  max-sm:gap-10 justify-start flex-wrap items-center overflow-x-scroll '>
 
-                <div className="max-w-sm p-6 bg-white  w-60   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
+                <div className="max-w-sm p-6 bg-white  max-md:w-[80%] w-[28%]   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                     <a href="#">
                         <h5 className="mb-2 text-center text-m font-bold tracking-tight text-gray-900 dark:text-white  m-auto">Sign up to <div>Nandi</div></h5>
                     </a>
@@ -42,7 +42,7 @@ const MyNandi = () => {
 
 
                 </div>
-                <div className="max-w-sm p-6 bg-white  w-60 text-m rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
+                <div className="max-w-sm p-6 bg-white  max-md:w-[80%] w-[28%]  text-m rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                     <a href="#">
                         <h5 className="mb-2 text-center text-l font-bold tracking-tight text-gray-900 dark:text-white  m-auto">Complete <div>Your Profile</div></h5>
                     </a>
@@ -53,7 +53,7 @@ const MyNandi = () => {
 
 
                 </div>
-                <div className=" p-6 bg-white  w-60 o  rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
+                <div className=" p-6 bg-white  max-md:w-[80%] w-[28%]   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                     <a href="#">
                         <h5 className="mb-2 text-center text-l font-bold tracking-tight text-gray-900 dark:text-white  m-auto">Sign up to <div>Nandi</div></h5>
                     </a>
@@ -67,11 +67,11 @@ const MyNandi = () => {
 
 
             </div>
-            <div>
+            <div className='w-[100%] '>
 
                 <h1 className='text-start text-3xl my-5'>Your Activity</h1>
-                <div className='flex gap-16 max-sm:flex-col max-md:flex-col max-sm:gap-10 justify-center items-center'>
-                    <div className="max-w-sm p-6 bg-white  w-60   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
+                <div className='flex w-[100%]  gap-16 max-sm:flex-col max-md:flex-col max-sm:gap-10  flex-wrap justify-start items-center'>
+                    <div className="max-w-sm p-6 bg-white  w-[28%] max-md:w-[80%]   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                         <a href="#">
                             <h5 className="mb-2 text-center text-m font-bold tracking-tight text-gray-900 dark:text-white  border-2  w-20 h-20 flex items-center justify-center rounded-full  m-auto">1</h5>
                         </a>
@@ -81,7 +81,7 @@ const MyNandi = () => {
 
 
                     </div>
-                    <div className="max-w-sm p-6 bg-white  w-60   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
+                    <div className="max-w-sm p-6 bg-white  w-[28%] max-md:w-[80%]   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                         <a href="#">
                             <h5 className="mb-2 text-center text-m font-bold tracking-tight text-gray-900 dark:text-white  border-2  w-20 h-20 flex items-center justify-center rounded-full  m-auto">1</h5>
                         </a>
@@ -91,7 +91,7 @@ const MyNandi = () => {
 
 
                     </div>
-                    <div className="max-w-sm p-6 bg-white  w-60   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
+                    <div className="max-w-sm p-6 bg-white  w-[28%] max-md:w-[80%]   rounded-xl shadow dark:bg-slate-600 mt-10 dark:border-gray-500 flex flex-col text-center items-center justify-center">
                         <a href="#">
                             <h5 className="mb-2 text-center text-m font-bold tracking-tight text-gray-900 dark:text-white  border-2  w-20 h-20 flex items-center justify-center rounded-full  m-auto">1</h5>
                         </a>

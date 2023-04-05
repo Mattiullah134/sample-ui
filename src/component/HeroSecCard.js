@@ -2,7 +2,7 @@ import React from 'react'
 const HeroSecCard = ({ men1Img, title, tag }) => {
     return (
 
-        <div class="max-w-sm bg-transparent max-sm:w-[100%] mt-5 w-[35%]">
+        <div class=" max-sm:bg-slate-50 gap-10 bg-transparent max-sm:w-[50%] mt-5 w-[33%]">
             <div href="/" className='overflow-hidden'>
                 <img class="rounded-lg m-auto h-80 max-sm:w-[80%]" src={men1Img} alt="" />
             </div>

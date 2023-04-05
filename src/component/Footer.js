@@ -4,17 +4,17 @@ const Footer = () => {
     return (
 
 
-        <footer className="relative mt-40">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8 sticky bottom-0">
-                <div className="md:flex md:justify-between ">
-                    <div className="mb-6 md:mb-0 max-sm:w-auto w-72 mr-14">
-                        <a href="https://flowbite.com/" className="flex items-center">
+        <footer className="relative mt-40 max-sm:text-center border-t border-gray-200 dark:border-gray-700">
+            <div className="mx-auto w-full max-sm:text-center  max-w-screen-xl p-4 py-6 lg:py-8 sticky bottom-0">
+                <div className="md:flex max-md:items-center max-sm:text-center max-md:flex-col md:justify-between ">
+                    <div className="mb-6 md:mb-0  max-sm:w-auto w-72 mr-14">
+                        <a href="https://flowbite.com/" className="flex items-center max-sm:justify-center">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="FlowBite Logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">nandi</span>
                         </a>
-                        <p className='text-white mt-8 max-sm:mr-0 mr-2 text-2xl'>The New Creative Economy.</p>
+                        <p className='text-white  max-sm:mr-auto mt-8 max-sm:mr-0 mr-2 text-2xl'>The New Creative Economy.</p>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3 max-sm:grid-cols-1 max-sm:text-center ">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Nandi.</h2>
                             <ul className="text-gray-600 dark:text-gray-400 font-medium">
@@ -47,19 +47,19 @@ const Footer = () => {
 
                             </ul>
                         </div>
-                        <div className='max-sm:w-72'>
+                        <div className=''>
                             <h2 className="mb-6 text-sm  font-semibold text-gray-900  dark:text-white">Join Newsletter</h2>
                             <ul className="text-gray-600 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
                                     <a href="#" className="hover:underline">Join our newsletter to get more free design course and resourse</a>
                                 </li>
                                 <li>
-                                    <div class="relative">
-                                        <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-                                            <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+                                    <div className="relative">
+                                        <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                                            <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                                         </div>
-                                        <input type="search" id="search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required />
-                                        <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><i class="fa-solid fa-arrow-right-long"></i></button>
+                                        <input type="search" id="search" className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search" required />
+                                        <button type="submit" className="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm px-3 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><i className="fa-solid fa-arrow-right-long"></i></button>
                                     </div>
                                 </li>
                             </ul>
