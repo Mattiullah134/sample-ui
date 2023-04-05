@@ -1,8 +1,8 @@
 import React from 'react';
 const RewCardRequi = ({ logo, title, para, icon }) => {
     return (
-        <div className='flex items-center justify-between my-8'>
-            <div className='flex items-center max-sm:gap-1 gap-4'>
+        <div className='flex items-center max-sm:items-start justify-between my-8'>
+            <div className='flex items-center max-sm:items-start max-sm:gap-2 gap-4'>
                 {logo && <img className='invert w-10 max-sm:w-5' src={logo} alt="" />}
                 {icon && icon}
                 <div>
