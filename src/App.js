@@ -19,8 +19,8 @@ function App() {
       <Routes>
         <Route exat path='/editprofile' element={<EditProfile />} />
         <Route exat path='/rewarddetail' element={<RewardsCardDetail />} />
-        {/* <Route exat path='/rewarddetail' element={<RewardsCardDetail />} /> */}
-        {/* <Route exat path='/rewarddetail' element={<RewardsCardDetail2 />} /> */}
+        <Route exat path='/rewarddetail' element={<RewardsCardDetail />} />
+        <Route exat path='/rewarddetail' element={<RewardsCardDetail2 />} />
       </Routes>
       {(location.pathname !== '/editprofile' && location.pathname !== '/rewarddetail') && <HeroSection />}
       <Footer />
