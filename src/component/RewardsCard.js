@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 const RewardsCard = ({ cardImage, title, points, pointShort, sponseredLogo }) => {
     return (
 
-        <Link to={'/rewarddetail'} className=" w-[28%] max-md:w-[40%] max-sm:w-[70%] my-6  shadow dark:border-gray-700">
+        <Link to={'/rewarddetail'} className=" w-[28%] max-md:w-[40%] max-sm:w-[70%] my-6  shadow  border-gray-700">
             <div className='h-80  max-md rounded-2xl overflow-hidden'>
 
                 <a href="#">
@@ -12,11 +12,11 @@ const RewardsCard = ({ cardImage, title, points, pointShort, sponseredLogo }) =>
             </div>
             <div className="">
                 <a href="#">
-                    <p className="mt-5 mb-3 text-md font-semibold  tracking-tight text-gray-900 dark:text-white">50 Minutes or 5GB Airtime & Data</p>
+                    <p className="mt-5 mb-3 text-md font-semibold  tracking-tight text-gray-900  text-white">50 Minutes or 5GB Airtime & Data</p>
                 </a> <hr className='bg-black ' />
                 <div className='flex items-center justify-between mt-5'>
 
-                    <button className="inline-flex  items-center px-3 py-2 font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 text-l">
+                    <button className="inline-flex  items-center px-3 py-2 font-medium text-center text-white bg-blue-700 rounded-full hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300  bg-blue-600  hover:bg-blue-700  focus:ring-blue-800 text-l">
                         Reedem
 
                     </button>

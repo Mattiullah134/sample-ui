@@ -7,8 +7,8 @@ const PageHeroSection = () => {
         }}>
             <div className='my-5 max-sm:mx-2  mx-12'>
 
-                <button type="button" className="py-2.5 px-5 max-sm:px-1.5 max-sm:py-1.5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700  dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Edit Cover Photo<i className="fa-regular fa-image ml-2"></i></button>
-                <Link to={'/editprofile'} type="button" className="py-2.5 max-sm:px-1.5 max-sm:py-1.5 px-5 mr-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none  rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700">Edit Profile<i className=" ml-2 fa-regular fa-pen-to-square"></i></Link>
+                <button type="button" className="py-2.5 px-5 max-sm:px-1.5 max-sm:py-1.5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200  focus:ring-gray-700   text-gray-400  border-gray-600  hover:text-white  hover:bg-gray-700">Edit Cover Photo<i className="fa-regular fa-image ml-2"></i></button>
+                <Link to={'/editprofile'} type="button" className="py-2.5 max-sm:px-1.5 max-sm:py-1.5 px-5 mr-2 mb-2 text-sm font-medium text-white focus:outline-none  rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200  focus:ring-gray-700  text-gray-400  border-gray-600  hover:text-white  hover:bg-gray-700">Edit Profile<i className=" ml-2 fa-regular fa-pen-to-square"></i></Link>
             </div>
 
         </div>

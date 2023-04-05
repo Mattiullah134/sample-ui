@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const RewardsCardDetail1 = () => {
     return (
         <div className='w-[80%] mx-auto mt-10'>
-            <Link to={'/rewards'} type="button" className="text-gray-900 bg-transparent border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm max-sm:px-2 px-5 py-2.5 max-sm:mr-0.5 mr-2 mb-2  dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 "><i className="fa-solid fa-arrow-left mr-3 text-gray-400"></i>Rewards</Link>
+            <Link to={'/rewards'} type="button" className="text-gray-900 bg-transparent border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-200 font-medium rounded-full text-sm max-sm:px-2 px-5 py-2.5 max-sm:mr-0.5 mr-2 mb-2   text-white  border-gray-600  hover:bg-gray-700 "><i className="fa-solid fa-arrow-left mr-3 text-gray-400"></i>Rewards</Link>
             <div className='flex gap-10 max-md:flex-col max-md:items-center'>
                 <div className='left w-[50%] rounded'>
                     <img className='rounded-xl' src={cardDetailImg} alt="" />
